@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Tailwind will automatically pick up CSS custom properties */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+/* Fonts */
+.qlaxe {
+  font-family: var(--font-qlaxe);
+}
+
+.kumbh-sans {
+  font-family: var(--font-kumbh-sans);
+}
+
+.bell-mt {
+  font-family: var(--font-bell-mt);
+}
