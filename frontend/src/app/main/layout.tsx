@@ -12,6 +12,8 @@ import Image from "next/image";
 // Component Imports
 import MainNavBar from "@/components/MainNavBar/MainNavBar";
 import IconButton from "@/components/IconButton/IconButton";
+import ActiveBoard from "@/components/ActiveBoard/ActiveBoard";
+import BackgroundArt from "@/components/BackgroundArt/BackgroundArt";
 // Icon Imports
 import { BsStars } from "react-icons/bs";
 import { TbSettings } from "react-icons/tb";
@@ -67,8 +69,15 @@ export default function MainLayout({
 
 
             {/* Main App Content */}
-            <main className="main__content flex-1">
-                {children}
+            <main className="flex-1 px-6 py-4">
+                
+                <BackgroundArt style="grey" />
+
+                {/* Content-safe area */}
+                <div className="rounded-b-[28px] h-full">
+                    <ActiveBoard />
+                    {children}
+                </div>
             </main>
 
         </div>

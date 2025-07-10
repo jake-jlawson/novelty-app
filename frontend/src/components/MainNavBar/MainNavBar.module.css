@@ -7,10 +7,13 @@
 .tab.active {
     font-weight: 600;
     font-size: calc(var(--default-font-size) * 1.1);
+    color: var(--color-neutral-15);
 }
 
 .tab {
     font-family: var(--font-kumbh-sans);
+    font-weight: 300;
     font-size: var(--default-font-size);
     transition: font-size 50ms ease-in-out;
+    color: var(--color-neutral-9);
 }

@@ -1,0 +1,15 @@
+
+
+.grey {
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    filter: brightness(0.8);
+}
+
+.white {
+    opacity: 0.8;
+}
+
+
+
+

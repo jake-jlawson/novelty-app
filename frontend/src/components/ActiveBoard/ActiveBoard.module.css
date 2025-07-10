@@ -1,0 +1,44 @@
+/*
+    Active Board CSS
+*/
+
+:root {
+    --outer-padding: 8px;
+}
+
+.container {
+    padding: 7px 12px;
+    /* border-radius */
+    border-radius: 13px;
+    border: 1px solid var(--off-black);
+}
+
+.header p {
+    font-size: 15px;
+    font-family: var(--font-kumbh-sans);
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.list p {
+    font-size: 14px;
+    font-family: var(--font-bell-mt);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.divider {
+    background-color: var(--off-black);
+    height: 1px;
+    margin: 6px 0;
+
+    box-shadow: 0px 3px 4.5px 0px rgba(56, 56, 56, 0.40);
+}
