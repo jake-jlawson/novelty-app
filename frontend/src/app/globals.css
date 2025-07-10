@@ -1,8 +1,57 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  
+  /* COLORS */
+  --off-white: #EFEFEF;
+  --real-white: #FDFDFD;
+  --off-black: #161616;
+
+  --color-primary: #4840D7; /* primary */
+  --color-secondary: #BB462D; /* secondary */
+  --color-tertiary: #FFD786; /* tertiary */
+
+  --color-neutral-1: #F0F0F0; /* neutrals */
+  --color-neutral-3: #D0D0D0;
+  --color-neutral-5: #B0B0B0;
+  --color-neutral-7: #909090;
+  --color-neutral-9: #707070;
+  --color-neutral-11: #505050;
+  --color-neutral-13: #303030;
+  --color-neutral-15: #101010;
+
+  --color-negative-1: #FFF0F0; /* negatives */
+  --color-negative-2: #FFC2C2;
+  --color-negative-3: #FF9595;
+  --color-negative-4: #FE6868;
+  --color-negative-5: #D54B4B;
+  --color-negative-6: #AC3333;
+  --color-negative-7: #831F1F;
+  --color-negative-8: #5B1111;
+
+  --color-positive-1: #F8FFF0; /* positives */
+  --color-positive-2: #E4FFC4;
+  --color-positive-3: #D0FF97;
+  --color-positive-4: #BCFF6B;
+  --color-positive-5: #A1E74D;
+  --color-positive-6: #7EBE30;
+  --color-positive-7: #5D9519;
+  --color-positive-8: #3F6C09;
+
+
+  /* GRADIENTS */
+  --novelty-grad: linear-gradient(197deg, #FFD786 19.02%, #BB462D 53.94%, #4840D7 96.04%);
+  --neutral-grad: linear-gradient(89deg, #000 72.44%, #E0E0E0 99.21%);
+  --positive-grad: linear-gradient(93deg, rgba(127, 210, 59, 0.00) 13.8%, rgba(214, 235, 198, 0.53) 91.62%);
+  --positive-border-grad: linear-gradient(197deg, #5D9519 19.02%, #BAD6AB 53.94%, #84D740 96.04%);;
+  --negative-grad: linear-gradient(93deg, rgba(210, 59, 59, 0.00) 13.8%, rgba(196, 42, 42, 0.19) 91.62%);
+  --negative-border-grad: linear-gradient(197deg, #8F1818 19.02%, #CE513E 53.94%, #ED5154 96.04%);
+
+
+
+  --background: var(--off-white);
+
+
 }
 
 /* Tailwind will automatically pick up CSS custom properties */
@@ -29,11 +78,9 @@ body {
 .qlaxe {
   font-family: var(--font-qlaxe);
 }
-
 .kumbh-sans {
   font-family: var(--font-kumbh-sans);
 }
-
 .bell-mt {
   font-family: var(--font-bell-mt);
 }
