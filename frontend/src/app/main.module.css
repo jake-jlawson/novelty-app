@@ -1,0 +1,10 @@
+/**
+ * Main Layout Styles
+ */
+
+
+
+.tagline {
+    font-family: var(--font-kumbh-sans);
+    font-size: 0.85rem;
+}

@@ -2,6 +2,9 @@
 
 :root {
   
+  --safe-top: env(safe-area-inset-top);
+  --safe-bottom: env(safe-area-inset-bottom);
+
   /* COLORS */
   --off-white: #EFEFEF;
   --real-white: #FDFDFD;
@@ -71,6 +74,10 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -83,4 +90,9 @@ body {
 }
 .bell-mt {
   font-family: var(--font-bell-mt);
+}
+
+
+.tst {
+  border: 1px solid rgb(76, 75, 120);
 }

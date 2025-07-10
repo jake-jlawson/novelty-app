@@ -1,0 +1,46 @@
+/* Main Layout Styles */
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header__logo {
+  position: relative;
+  width: 70%;
+  height: 5rem; /* 80px */
+}
+
+.header__tagline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.tagline__decoration,
+.tagline__text {
+  /* Add your tagline styles here */
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.app-content {
+  flex: 1;
+} 

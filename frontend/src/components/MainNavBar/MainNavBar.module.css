@@ -1,0 +1,16 @@
+
+
+:global(:root) {
+    --default-font-size: 1.25rem;
+}
+
+.tab.active {
+    font-weight: 600;
+    font-size: calc(var(--default-font-size) * 1.1);
+}
+
+.tab {
+    font-family: var(--font-kumbh-sans);
+    font-size: var(--default-font-size);
+    transition: font-size 50ms ease-in-out;
+}
