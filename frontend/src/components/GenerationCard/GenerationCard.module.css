@@ -1,0 +1,41 @@
+/**
+ * GenerationCard styles
+ */
+.cardContainer {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px 1px rgba(156, 156, 156, 0.30);
+    position: relative;
+}
+
+.cardContainer::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 15px;
+    z-index: -1;
+    background: var(--novelty-grad);
+}
+
+
+
+/*text styles*/
+.cardHeader h1 {
+    font-family: var(--font-qlaxe);
+    font-size: 1.5rem;
+    color: rgba(72, 64, 215, 0.54);
+
+
+}
+
+.cardHeader p {
+    font-family: var(--font-kumbh-sans);
+    font-size: 0.7rem;
+}
+
+.cardContent p {
+    font-family: var(--font-bell-mt);
+    font-size: 0.95rem;
+    color: #373737;
+    line-height: 1.2rem;
+}
