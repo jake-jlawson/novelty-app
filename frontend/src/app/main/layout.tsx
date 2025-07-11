@@ -31,7 +31,7 @@ export default function MainLayout({
     return (
         <div className="flex flex-col h-full w-full">
             
-            <header className="w-full pt-10 flex items-center justify-center flex-col">
+            <header className="w-full pt-9 flex items-center justify-center flex-col">
                 {/* novelty.ai Logo */}
                 <div className="w-[70%] mb-2">
                     <Image 
@@ -69,14 +69,16 @@ export default function MainLayout({
 
 
             {/* Main App Content */}
-            <main className="flex-1 px-6 py-4">
+            <main className="flex-1 px-6 pb-6 pt-4">
                 
                 <BackgroundArt style="grey" />
 
                 {/* Content-safe area */}
-                <div className="rounded-b-[28px] h-full">
+                <div className="rounded-b-[28px] h-full flex flex-col">
                     <ActiveBoard />
-                    {children}
+                    <div className="flex-1">
+                        {children}
+                    </div>
                 </div>
             </main>
 

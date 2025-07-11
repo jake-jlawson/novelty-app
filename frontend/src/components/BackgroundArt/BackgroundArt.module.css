@@ -1,7 +1,7 @@
 
 
 .grey {
-    opacity: 0.5;
+    opacity: 0.25;
     mix-blend-mode: difference;
     filter: brightness(0.8);
 }

@@ -1,0 +1,62 @@
+
+
+
+.cardContainer {
+    background-color: #FDFDFD;
+    border-radius: 9999px;
+    position: relative;
+}
+
+.cardContainer::before {
+    content: '';
+    position: absolute;
+    inset: -1.5px;
+    border-radius: 9999px;
+    background: var(--neutral-grad);
+    z-index: -1;
+}
+
+.cardContent h1 {
+    font-family: var(--font-qlaxe);
+    font-size: 0.9rem;
+    line-height: 1;
+    padding-bottom: 2px;
+}
+
+.cardContent p {
+    font-family: var(--font-bell-mt);
+    font-size: 0.8rem;
+    line-height: 1;
+    color: var(--color-neutral-7);  
+}
+
+.expanded {
+    width: 100%;
+}
+
+.expanded p {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.compressed {
+    width: 100%;
+}
+
+.compressed p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+.cardCheckbox {
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+
+    border: 1px solid #979797;
+}
